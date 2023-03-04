@@ -1,6 +1,9 @@
 import streamlit as st
 
 st.write("""
-         # My first app
-         Hello *world!*
+         # Sales model
+         Below are our sales predictions for this
+         customer.
          """)
+
+window = st.slide("Forecast window (days)   ")
